@@ -4,7 +4,7 @@
   # RStudio Cloud - http://rstudio.cloud/
 
 # This workshop was developed using the O'Reilly Platform Lesson video - R Programming for Statistics and Data Science - which can accessed at 
-      # http://www.libproxy.wvu.edu/login?url=https://learning.oreilly.com/videos/r-programming-for/9781789950298
+      # https://libwvu.on.worldcat.org/oclc/1062397089
       # For more in-depth information and practical exercises on using R for Data science, I highly suggest using this resource
 
 #Getting to know R - Basic Functions
@@ -33,6 +33,7 @@
   # editor marks error
     # x  for syntax errors
     # ! for potential problem later
+  
   
 #Lets try running some basic math from the Source Pane. Remember to use you keyboard shortcuts
   
@@ -127,8 +128,3 @@
       #however you do need to call a package, every session you plan on using it
 
 # Okay on to the Vectors, Matrices, and Data Frames. Open 2_Vectors_Matrices_Data_Frames using the File Menu of Files pane. 
-    
-    
-    
-
-    
