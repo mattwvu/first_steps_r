@@ -1,4 +1,4 @@
-# A Vector is a sequence of data elements that are of the same type.
+# A Vector is a sequence of data elements that are of the same type. It is the simplest type of data structure in R. 
 
   # There are 6 Types of Classes of Values in R. A vector can only contain one class of values.
 
@@ -80,13 +80,13 @@
             #The syntax for a functions is
             #function_name <- function(arg_1, arg_2, ...) { Function body }
             
-              #Function Name ??? This is the actual name of the function. It is stored in R environment as an object with this name.
+              #Function Name - This is the actual name of the function. It is stored in R environment as an object with this name.
             
-              #Arguments ??? An argument is a placeholder. When a function is invoked, you pass a value to the argument. Arguments are optional; that is, a function may contain no arguments.                 Also arguments can have default values.
+              #Arguments - An argument is a placeholder. When a function is invoked, you pass a value to the argument. Arguments are optional; that is, a function may contain no arguments.                 Also arguments can have default values.
             
-              #Function Body ??? The function body contains a collection of statements that defines what the function does.
+              #Function Body - The function body contains a collection of statements that defines what the function does.
             
-              #Return Value ??? The return value of a function is the last expression in the function body to be evaluated.
+              #Return Value - The return value of a function is the last expression in the function body to be evaluated.
             
       
             
@@ -103,14 +103,19 @@
             
             #function with an argument
             
+            pow <- function(x, y) {
+              result <- x^y
+              print(paste(x,"raised to the power", y, "is", result))
+            }
+            
+            pow(8,2)
+            
             fahrenheit_to_celsius <- function(temp_F) {
               temp_C <- (temp_F - 32) * 5 / 9
               return(temp_C)
             }
             
             fahrenheit_to_celsius(50)
-
-          
               
 # Matrices are two-dimensional vectors. Like vectors they can only contain one class of value.
             
